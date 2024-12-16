@@ -45,5 +45,10 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+    <key>NSLocationWhenInUsageDescription</key>
+    <string>위치 정보가 필요합니다.</key>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>위치 정보가 필요합니다.</key>
 </dict>
 </plist>

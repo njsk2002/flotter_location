@@ -42,6 +42,17 @@ dependencies:
   agora_rtc_engine: 6.2.4
   permission_handler:  11.0.1
 
+  #google_maps
+  google_maps_flutter: 2.5.0
+  geolocator: 10.1.0
+
+  image_picker: ^1.0.4
+  video_player: ^2.8.1
+  camera: 0.10.5+5
+
+  agora_rtc_engine: 6.2.4
+  permission_handler:  11.0.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
