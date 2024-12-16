@@ -16,12 +16,18 @@
     <uses-permission android:name="adroid.permission.READ_PROVILEGED_PHONE_
 STATE" tools:ignore="ProtectedPermissions"/>
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
 
 
     <application
         android:label="location"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <!--구글 지도  API키 등록 -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC9bDcjz1pr921mkB6PRcoW6njXDbugaFE"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
