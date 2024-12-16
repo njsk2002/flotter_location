@@ -20,6 +20,8 @@ STATE" tools:ignore="ProtectedPermissions"/>
 
 
 
+
+
     <application
         android:label="location"
         android:name="${applicationName}"
